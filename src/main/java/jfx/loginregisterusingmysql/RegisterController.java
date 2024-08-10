@@ -30,7 +30,7 @@ public class RegisterController {
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.setTitle("Register!");
-        String css = Objects.requireNonNull(RegisterController.class.getResource("LoginCSS.css")).toExternalForm();
+        String css = Objects.requireNonNull(RegisterController.class.getResource("RegisterCSS.css")).toExternalForm();
         scene.getStylesheets().add(css);
         stage.show();
     }
